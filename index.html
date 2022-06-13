@@ -1,12 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+
     <title>CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-   Hello World
+    <section class="wrapper">
+        <header class="header">
+            <nav class="nav">
+                <ul class="list">
+                    <li class="item"><a href="#contacts" class="link">Contacts</a></li>
+                    <li class="item"><a href="#about" class="link">About</a></li>
+                    <li class="item"><a href="#experience" class="link">Experience</a></li>
+                    <li class="item"><a href="#education" class="link">Education</a></li>
+                    <li class="item"><a href="#languages" class="link">Languages</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <div class="resume">
+                <div class="info">
+                    <div class="picture">
+                        <img src="assets/img/my_photo.jpg" alt="My photo">
+                    </div>
+                    <div class="text">
+                        <h1>Alexander Derzhavsky</h1>
+                    </div>
+
+                </div>
+                <div class="listInfo">
+                    <div class="item" id="contacts">
+                        <h2>Contact me</h2>
+                        <div class="links">
+                            <div class="link">
+                                <span class="tit">Discord:</span>
+                                <span class="txt"> menhunging#9253</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" id="about">
+                        <h2>About me:</h2>
+                        <p>I am a responsive, friendly, generous, attentive and just a handsome guy who strives to test
+                            his knowledge and get a lot of new ones. I love brevity and I think that brevity is the
+                            first sign of artistry.</p>
+                        <p>I have freelancing experience, mainly website development. Little experience with CMS and
+                            react-app</p>
+                    </div>
+                    <div class="item" id="code">
+                        <h2>Code examples:</h2>
+                        <code>
+                            function multiply(a, b){ return a * b }
+                        </code>
+                    </div>
+                    <div class="item" id="experience">
+                        <h2>Experience:</h2>
+                        <p>Proficient in HTML, CSS, JS, PHP. Some experience with the React library. As well as the
+                            Next.js framework.</p>
+                    </div>
+                    <div class="item" id="education">
+                        <h2>Education:</h2>
+                        <p>Vitebsk State Technological University. Programmer.</p>
+                    </div>
+                    <div class="item" id="languages">
+                        <h2>Languages:</h2>
+                        <p>Russian, English(A1)</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <a class="logo" href="https://rs.school/js/" target="_blank">
+                <img src="assets/svg/logo.svg" alt="Logo course">
+            </a>
+            <div class="copyRight">
+                <span>2022</span>
+            </div>
+            <div class="myGit">
+                <span class="txt">My GITHUB:</span>
+                <a class="link" href="https://github.com/menhunging" target="_blank">@menhunging</a>
+            </div>
+        </footer>
+    </section>
 </body>
+
 </html>
